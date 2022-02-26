@@ -1,9 +1,10 @@
 import { SiHtml5  , SiCss3  , SiJavascript  , SiSass  , SiReact , SiGithub, SiRedux   } from 'react-icons/si';
 import { DiGit, DiNpm } from 'react-icons/di'
-import { AiFillEye, AiOutlineGooglePlus } from 'react-icons/ai'
+import { AiFillEye, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
 import { RiExternalLinkFill, RiFolderInfoFill } from 'react-icons/ri' 
 import { VscDebugConsole, VscChromeClose } from 'react-icons/vsc';
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5'
+import { CgMenuRight } from 'react-icons/cg'
 
 export const icons = {
   html_icon: <SiHtml5 className='icon'/>,
@@ -23,4 +24,7 @@ export const icons = {
   close_icon: <VscChromeClose className='icon'/>,
   left_icon: <IoChevronBackOutline className='icon'/>,
   right_icon: <IoChevronForwardOutline className='icon'/>,
+  menu_icon: <CgMenuRight className='icon'/>,
+  mail_icon: <AiOutlineMail className='icon'/>,
+  linkedin_icon: <AiOutlineLinkedin className='icon'/>,
 }
