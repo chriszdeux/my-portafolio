@@ -1,0 +1,44 @@
+@media only screen and ( min-width: 768px ) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .profile_picture {
+      width: 30%;
+    }
+    .main_content {
+      width: 60%;
+      h2 {
+        font-size: $extra-large-font;
+        &:nth-last-child(2) {
+          font-size: $large-font;
+          text-align: end;
+        }
+      }
+      h1 {
+        font-size: $jumbo-font;
+      }
+      .icon {
+        align-self: flex-end;
+      }
+    }
+  }
+}
+
+@media only screen and ( min-width: 1366px ) {
+  .main {
+    @include container-90();
+  }
+}
+
+@media only screen and ( min-width: 1600px ) {
+  .main {
+    @include container-80();
+  }
+}
+
+@media only screen and ( min-width: 1920px ) {
+  .main {
+    @include container-70();
+  }
+}

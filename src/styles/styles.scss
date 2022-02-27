@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import './variables.scss';
 @import './buttons.scss';
+@import './mixins.scss';
 @import './components/header';
 @import './components/main';
 @import './components/divider';
@@ -9,6 +10,16 @@
 @import './components/about';
 @import './components/interested';
 @import './components/contact';
+
+@import './media-queries/header';
+@import './media-queries/main';
+@import './media-queries/projects';
+@import './media-queries/skills';
+@import './media-queries/about';
+@import './media-queries/interested';
+@import './media-queries/divider';
+@import './media-queries/contact';
+
 * {
   box-sizing: border-box;
   margin: 0;

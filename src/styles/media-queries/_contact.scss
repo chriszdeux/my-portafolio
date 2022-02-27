@@ -1,0 +1,53 @@
+@media only screen and ( min-width: 768px ) {
+  .contact {
+      .contact_form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        grid-template-areas: " name name "
+                            " email subject "
+                            " message message "
+                            " message message ";
+                            
+        .name {
+          grid-area: name;
+        }
+        .email {
+          grid-area: email;
+        }
+        .subject {
+          grid-area: subject;
+        }
+        .message {
+          grid-area: message;
+        }
+      }
+    }
+  }
+
+
+@media only screen and ( min-width: 1366px ) {
+  .contact {
+    @include container-90();
+
+  }
+
+}
+@media only screen and ( min-width: 1600px ) {
+  .contact {
+    @include container-80();
+    .contact_form {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: " name email subject "
+                          " message message message";
+    }
+  }
+}
+
+@media only screen and ( min-width: 1920px ) {
+  .contact {
+    @include container-70();
+
+    
+  }
+}

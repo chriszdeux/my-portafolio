@@ -1,0 +1,46 @@
+@media only screen and ( min-width: 768px ) {
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    .project_card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0;
+
+      .project_content {
+        flex-direction: column;
+
+        .project_screenshot {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+
+        .project_info {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and ( min-width: 1366px ) {
+  .projects {
+    @include container-90();
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and ( min-width: 1600px ) {
+  .projects {
+    @include container-80();
+  }
+}
+
+@media only screen and ( min-width: 1920px ) {
+  .projects {
+    @include container-70();
+  }
+}

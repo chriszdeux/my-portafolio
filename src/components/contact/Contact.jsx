@@ -7,7 +7,7 @@ export const Contact = () => {
        {/* <h2>Or</h2> */}
        <form action="" className='contact_form'>
          <input className='name' type="text" name="name" placeholder='name'/>
-         <input className='emal' type="email" name="email" placeholder='welcome@welcome.com'/>
+         <input className='email' type="email" name="email" placeholder='welcome@welcome.com'/>
          <input className='subject' type="text" name="subject" placeholder='subject'/>
          <textarea className='message' name="message"></textarea>
        </form>

@@ -1,0 +1,36 @@
+@media only screen and ( min-width: 768px ) {
+  .about {
+    p {
+      font-size: $regular-font;
+      // font-weight: $heavy-weigth;
+      letter-spacing: 1px;
+      line-height: 20px;
+    }
+
+    h2 {
+      font-size: $extra-large-font;
+    }
+
+    .my_skills {
+      font-size: $large-font;
+    }
+  }
+}
+
+@media only screen and ( min-width: 1366px ) {
+  .about {
+    @include container-90();
+  }
+}
+
+@media only screen and ( min-width: 1600px ) {
+  .about {
+    @include container-80();
+  }
+}
+
+@media only screen and ( min-width: 1920px ) {
+  .about {
+    @include container-70();
+  }
+}

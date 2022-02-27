@@ -1,0 +1,17 @@
+@media only screen and ( min-width: 1366px ) {
+  .divider {
+    @include container-90();
+  }
+}
+
+@media only screen and ( min-width: 1600px ) {
+  .divider {
+    @include container-80();
+  }
+}
+
+@media only screen and ( min-width: 1920px ) {
+  .divider {
+    @include container-70();
+  }
+}
