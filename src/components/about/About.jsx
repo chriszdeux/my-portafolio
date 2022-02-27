@@ -4,18 +4,18 @@ import { aboutMeData } from '../../utils/aboutData'
 export const About = () => {
   const { about_me, my_skills } = aboutMeData
   return (
-    <section>
+    <section className='about'>
       <p>{ about_me }</p>
       <h2>I've worked with this technologies</h2>
-      <ul>
+      <ul className='my_skills'>
         {
           my_skills.map(item => (
-            <li key={ item.skill }>{ item.skill } { 
+            <li key={ item.skill } >{ item.skill } { 
               item?.list && 
-              <ul>
+              <ul className='sub_skill'>
                 {
                   item.list.map(item => (
-                    <li key={ item }>{ item }</li>
+                    <li key={ item }> / { item }</li>
                   ))
                 }
               </ul>

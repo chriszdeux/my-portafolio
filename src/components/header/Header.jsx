@@ -3,9 +3,9 @@ import { icons } from '../../utils/icons'
 
 export const Header = () => {
   return (
-    <header>
+    <header className='header'>
       <h2>Portafolio</h2>
-      <div>
+      <div className='menu'>
         { icons.menu_icon }
       </div>
     </header>

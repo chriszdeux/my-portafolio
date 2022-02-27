@@ -1,34 +1,15 @@
 import React from 'react'
 import { icons } from '../../utils/icons'
-
+import { projects } from '../../utils/projectsData';
+import { ProjectCard } from './ProjectCard';
 export const Projects = () => {
   return (
-    <section>
-      <article>
-        <div>
-          <figure>
-            <img src="" alt="" />
-          </figure>
-          <div>
-            <h2>Project</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat possimus deserunt voluptas veritatis amet labore.</p>
-          </div>
-        </div>
-
-        <div>
-          <ul>
-            <li>technology</li>
-          </ul>
-          <div>
-            <div>
-              { icons.live_icon }
-            </div>
-            <div>
-              { icons.github_icon }
-            </div>
-          </div>
-        </div>
-      </article>
+    <section className='projects'>
+      {
+        projects.map(item => (
+          <ProjectCard key={ item.id } item={ item }/>
+        ))
+      }
     </section>
   )
 }

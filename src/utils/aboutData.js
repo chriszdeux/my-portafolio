@@ -1,5 +1,5 @@
 export const aboutMeData = {
-  about_me: `I am a front end developer focusing on React. My first contact in  web development was in 2011 when I was studying video game development engineering, which I only studied for a year and a half, for personal reasons I could not continue.
+  about_me: `I am a front-end developer focusing on React. My first contact in  web development was in 2011 when I was studying video game development engineering, which I only studied for a year and a half, for personal reasons I could not continue.
   In this school I had the opportunity to learn about technologies such as C++, Maya, Photoshop, Illustrator Unreal Engine 3, html, css, bootstrap and foundation.
   A little over a year and a half ago I resumed development and chose front end as my career..`,
 
@@ -82,6 +82,10 @@ export const aboutMeData = {
     },
     {
       hobbie: 'Going for a walk in the afternoon helps me a lot to clear my mind.',
+      // list_hobbie: []
+    },
+    {
+      hobbie: 'Lecture.',
       // list_hobbie: []
     },
   ]

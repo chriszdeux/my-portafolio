@@ -118,7 +118,7 @@ export const skillsData = [
   {
     id: 10,
     icon: debbug_icon,
-    name: 'Debbugin Dev-Tools',
+    name: 'Dev-Tools',
     description: `
     Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser.
     `,

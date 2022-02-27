@@ -1,0 +1,43 @@
+.about {
+  width: 100%;
+  padding: 1rem;
+  p {
+    font-size: $small-font;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    font-size: $regular-font;
+    color: $border-color;
+    margin: 1rem 0;
+  }
+
+  .my_skills {
+    font-size: $regular-font;
+    // li {
+    //   width: 100%;
+    //   margin: 1rem 0;
+    // }
+
+    li {
+      // display: flex;
+      // align-items: center;
+      // width: 100%;
+      .sub_skill {
+        display: flex;
+        flex-wrap: wrap;
+        color: $border-color;
+        margin-left: 1rem;
+        li {
+          // flex-shrink: 0;
+          // width: 100%;
+          // display: flex;
+          // align-items: center;
+          margin-right: 1rem;
+
+        }
+      }
+    }
+  } 
+}

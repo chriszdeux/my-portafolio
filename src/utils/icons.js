@@ -1,6 +1,7 @@
+import React from 'react'
 import { SiHtml5  , SiCss3  , SiJavascript  , SiSass  , SiReact , SiGithub, SiRedux   } from 'react-icons/si';
 import { DiGit, DiNpm } from 'react-icons/di'
-import { AiFillEye, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
+import { AiFillEye, AiFillInstagram, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
 import { RiExternalLinkFill, RiFolderInfoFill } from 'react-icons/ri' 
 import { VscDebugConsole, VscChromeClose } from 'react-icons/vsc';
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5'
@@ -27,4 +28,5 @@ export const icons = {
   menu_icon: <CgMenuRight className='icon'/>,
   mail_icon: <AiOutlineMail className='icon'/>,
   linkedin_icon: <AiOutlineLinkedin className='icon'/>,
+  instagram_icon: <AiFillInstagram className='icon'/>,
 }

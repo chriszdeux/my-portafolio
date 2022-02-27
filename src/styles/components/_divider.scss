@@ -1,0 +1,68 @@
+@mixin block($size) {
+  width: 1rem;
+  height: $size;
+  background-color: $main-color;
+  border: none;
+}
+
+@mixin group-block($heigh) {
+  width: 1rem;
+  height: $heigh;
+  background-color: $main-color;
+  border: none;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 3px solid $border-color;
+  .section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  
+    h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10rem;
+      height: 3rem;
+      background-color: $main-color;
+      color: $second-font-color;
+      letter-spacing: 1px;
+    }
+
+    .block-1 {
+      @include block(2rem)
+    }
+    .block-2 {
+      @include block(1rem)
+    }
+    
+  }
+
+  .group_blocks {
+    display: flex;
+    align-items: flex-end;
+    .block-3 {
+      @include group-block(1rem)
+    }
+    .block-4 {
+      @include group-block(4rem)
+    }
+    .block-5 {
+      @include group-block(2rem)
+    }
+    .block-6 {
+      @include group-block(1rem)
+    }
+    .block-7 {
+      @include group-block(3rem)
+    }
+    .block-8 {
+      @include group-block(1rem)
+    }
+  }
+}

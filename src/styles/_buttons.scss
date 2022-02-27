@@ -1,0 +1,11 @@
+.btn {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.btn_primary {
+  border: 1px solid $border-color;
+  background-color: $main-color;
+  color: $second-font-color;
+}

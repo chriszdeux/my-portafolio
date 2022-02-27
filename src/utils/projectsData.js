@@ -118,7 +118,7 @@ export const projects = [
         color: '#58DAFB'
       },
     ],
-    description: 'Check out Fantastic images of extraordinary photographers, visit their work and admire the world with the eyes of a photographer. This website allows you to consult images from different photographers, it consumes the Unspash API',
+    description: 'Check out Fantastic images of extraordinary photographers, visit their work and admire the world with the eyes of a photographer.',
     gallery: [
       {
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/awamage%2Fchriszdeux.github.io_gallery_%20(1).png?alt=media&token=03cdff3e-17cc-4685-b98d-add0f6dd69fe'

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-
+@import './variables.scss';
+@import './buttons.scss';
+@import './components/header';
+@import './components/main';
+@import './components/divider';
+@import './components/projects';
+@import './components/skills';
+@import './components/about';
+@import './components/interested';
+@import './components/contact';
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,4 +18,13 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
+  // font-size: $small-font;
+}
+
+.icon {
+  font-size: $small-icon;
+}
+
+ul, ol, li {
+  list-style: none;
 }

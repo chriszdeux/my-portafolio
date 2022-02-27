@@ -1,0 +1,22 @@
+.skills {
+  width: 100%;
+  padding: 1rem;
+
+  .skill_list {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      // justify-self: flex-start;
+      align-items: center;
+      flex-shrink: 0;
+      margin: 1rem;
+      .icon {
+        font-size: $regular-icon;
+      }
+    }
+  }
+}
