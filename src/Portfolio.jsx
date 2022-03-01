@@ -13,15 +13,15 @@ export const Portfolio = () => {
     <>
       <Header />
       <Main />
-      <Divider text="Projects"/>
+      <Divider values="Projects" id="projects"/>
       <Projects />
-      <Divider text="Skills"/>
+      <Divider values="Skills" id="skills"/>
       <Skills />
-      <Divider text="About Me"/>
+      <Divider values="About Me" id="about"/>
       <About />
-      <Divider text="Interested"/>
+      <Divider values="Interested" id="interested"/>
       <Interested />
-      <Divider text="Contact Me"/>
+      <Divider values="Contact Me" id="contact"/>
       <Contact />
     </>
   )

@@ -53,7 +53,8 @@ export const projects = [
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/crypto%2Fchriszdeux.github.io_crypto_.png?alt=media&token=384d9bdf-4f79-47bb-b882-4961d65feff2'
       },
     ],
-    repository: 'https://github.com/chriszdeux/crypto'
+    repository: 'https://github.com/chriszdeux/crypto',
+    delay: '1s'
   },
 
   {
@@ -93,7 +94,8 @@ export const projects = [
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/whatgame%2Fchriszdeux.github.io_whatgame_genres.png?alt=media&token=0d74d58e-70d7-4e22-bd55-e36c2c803a24',
       },
     ],
-    repository: 'https://github.com/chriszdeux/whatgame'
+    repository: 'https://github.com/chriszdeux/whatgame',
+    delay: '1.3s'
   },
 
   {
@@ -136,6 +138,7 @@ export const projects = [
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/awamage%2Fchriszdeux.github.io_gallery_.png?alt=media&token=00258c73-d6d9-4666-a5de-141f615ffd64'
       },
     ],
-    repository: 'https://github.com/chriszdeux/gallery'
+    repository: 'https://github.com/chriszdeux/gallery',
+    delay: '1.6s'
   },
 ]

@@ -10,13 +10,13 @@
     border-radius: .5rem;
     margin-bottom: 1rem;
     .project_content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
       width: 100%;
       .project_screenshot {
-        width: 59%;
-        height: 15rem;
+        // width: 59%;
+        // height: 15rem;
 
         img {
           width: 100%;
@@ -26,14 +26,19 @@
       }
 
       .project_info {
+        margin-top: 1rem;
         // align-items: center;
-        width: 40%;
+        // width: 40%;
         // text-align: end;
         h2 {
+          font-size: $large-font;
           margin-bottom: 1rem;
+          color: $font-color-2;
         }
         p {
           font-size: $small-font;
+          text-align: justify;
+          font-size: $regular-font;
           letter-spacing: 1px;
         }
       }
@@ -55,8 +60,10 @@
           flex-direction: column;
           align-items: center;
           margin-right: 1rem;
+          font-size: $regular-font;
+          height: auto;
           .icon {
-            font-size: $small-icon;
+            font-size: $regular-icon;
           }
         }
       }
@@ -67,7 +74,14 @@
         justify-content: space-between;
         .icon {
           color: $main-color;
-          font-size: $small-icon;
+          font-size: $regular-icon;
+          transition: .2s linear;
+          user-select: none;
+          &:active {
+            transform: scale(0.97);
+            color: $font-color-2;
+            filter: blur(1px);
+          }
         }
       }
     }

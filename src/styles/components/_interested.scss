@@ -6,12 +6,16 @@
     font-size: $regular-font;
     li {
       margin: 1rem 0;
+      font-weight: $heavy-weigth;
+      color: $font-color-2;
     }
     .list_hobbies {
       display: flex;
       flex-wrap: wrap;
       color: $border-color;
       li {
+        font-weight: $regular-weigth;
+        color: $border-color;
         margin-right: 1rem;
       }
     }

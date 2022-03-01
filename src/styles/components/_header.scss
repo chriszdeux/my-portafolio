@@ -4,6 +4,12 @@
   align-items: center;
   width: 100%;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
 
   h2 {
     font-size: $large-font;
@@ -11,5 +17,91 @@
   }
   .icon {
     color: $main-color;
+  }
+
+  .navbar_mobile {
+    width: 25rem;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    font-size: $regular-font;
+    z-index: 1;
+
+    .mobile_menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 25rem;
+      background: $menu-background-color;
+      border-top-left-radius: .5rem;
+      border-bottom-left-radius: .5rem;
+      overflow: hidden;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+        height: 3rem;
+        background: $menu-background-color;
+        text-align: center;
+        transition: .2s ease;
+        a {
+          color: $second-font-color;
+
+        }
+        // &:hover {
+        //   background-color: $border-color;
+        // }
+      }
+    }
+
+    .block_menu_container {
+      position: absolute;
+      top: 50%;
+      left: -5%;
+      transform: translateY(-50%);
+      width: 1rem;
+      height: 20rem;
+      background-color: $main-color;
+      border: 1px solid $border-color;
+      box-shadow: 2px 0 15px 5px $border-color;
+      z-index: -3;
+
+      .menu-block-1 {
+        @include block-menu(3rem, 1rem, 10%);
+      }
+      .menu-block-2 {
+        @include block-menu(4rem, 2rem, 30%)
+      }
+      .menu-block-3 {
+        @include block-menu(5rem, 1rem, 59%)
+      }
+      .menu-block-4 {
+        @include block-menu(3rem, 3rem, 80%)
+      }
+    }
+  }
+
+  .navbar_desk {
+    display: none;
+    width: 50%;
+    .desk_menu {
+      display: flex;
+      justify-content: space-between;
+      
+      li {
+        cursor: pointer;
+        transition: .2s ease;
+        a {
+          font-size: $regular-font;
+          color: $border-color;
+        }
+        &:hover {
+          font-weight: 500;
+          transform: scale(1.05);
+        }
+      }
+    }
   }
 }

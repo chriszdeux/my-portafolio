@@ -4,7 +4,8 @@
 
   .skill_list {
     display: flex;
-    // justify-content: space-between;
+    justify-content: center;
+    // justify-content: center;
     flex-wrap: wrap;
 
     li {
@@ -14,8 +15,10 @@
       align-items: center;
       flex-shrink: 0;
       margin: 1rem;
+      font-size: $regular-font;
+      // animation-delay: 3s;
       .icon {
-        font-size: $regular-icon;
+        font-size: $large-icon;
       }
     }
   }

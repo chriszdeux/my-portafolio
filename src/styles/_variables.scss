@@ -1,8 +1,12 @@
 $background-color: #fff;
 $main-color: #A4BDFF;
-$font-color: #595959;
+$font-color: #7395EE;
+$font-color-2: #637ec4;
+// $font-color: #595959;
 $second-font-color: #f5f5f5;
 $border-color: #7395EE;
+$bars-color:  linear-gradient(180deg, rgba(164,189,255,0.22452731092436973) 0%, rgba(164,189,255,1) 57%);
+$menu-background-color: linear-gradient(90deg, rgba(164,189,255,0) 0%, rgba(164,189,255,1) 33%);
 
 $html-color: #d84b24;
 // $html-color-active: #D84B24;
@@ -26,9 +30,9 @@ $large-font: 1.8rem;
 $extra-large-font: 2.8rem;
 $jumbo-font: 3.8rem;
 
-$light-weigth: 100;
-$regular-weigth: 300;
-$heavy-weigth: 400;
+$light-weigth: 300;
+$regular-weigth: 400;
+$heavy-weigth: 500;
 
 $box-shadow: 0 0 3px 3px $main-color;
 

@@ -11,4 +11,16 @@
 @mixin container-70 {
   width: 70%;
   margin: 5rem auto;
+  // border-left: 1px solid $border-color;
+  // border-right: 1px solid $border-color;
+}
+
+@mixin block-menu($width, $heigth, $position) {
+  width: $width;
+  height: $heigth;
+  background-color: $main-color;
+  position: absolute;
+  top: $position;
+  left: -2rem;
+  border: 1px solid $border-color;
 }

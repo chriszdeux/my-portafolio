@@ -3,7 +3,7 @@ import { icons } from '../../utils/icons'
 
 export const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact' >
        {/* <h2>Or</h2> */}
        <form action="" className='contact_form'>
          <input className='name' type="text" name="name" placeholder='name'/>

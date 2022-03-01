@@ -21,7 +21,8 @@ export const skillsData = [
       HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-    color: '#d84b24'
+    color: '#d84b24',
+    delay: '1s'
   },
 
   {
@@ -32,7 +33,8 @@ export const skillsData = [
       Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-    color: '#2B6CAD'
+    color: '#2B6CAD',
+    delay: '1.3s'
   },
 
   {
@@ -43,7 +45,8 @@ export const skillsData = [
       JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    color: '#ffe047'
+    color: '#ffe047',
+    delay: '1.6s'
   },
 
   {
@@ -54,7 +57,8 @@ export const skillsData = [
       Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects. 
     `,
     url: 'https://sass-lang.com/documentation',
-    color: '#C26191'
+    color: '#C26191',
+    delay: '1.9s'
   },
 
   {
@@ -65,7 +69,8 @@ export const skillsData = [
       React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
     `,
     url: 'https://reactjs.org/docs/getting-started.html',
-    color: '#58DAFB'
+    color: '#58DAFB',
+    delay: '2.2s'
   },
 
   {
@@ -76,7 +81,8 @@ export const skillsData = [
       React Redux is the official React UI bindings layer for Redux. It lets your React components read data from a Redux store, and dispatch actions to the store to update state.
     `,
     url: 'https://react-redux.js.org/',
-    color: '#764ABC'
+    color: '#764ABC',
+    delay: '2.5s'
   },
 
 
@@ -88,7 +94,8 @@ export const skillsData = [
       Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
     `,
     url: 'https://git-scm.com/',
-    color: '#d84b24'
+    color: '#d84b24',
+    delay: '2.8s'
   },
 
   {
@@ -99,7 +106,8 @@ export const skillsData = [
       GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
     `,
     url: 'https://github.com/',
-    color: '#272727'
+    color: '#272727',
+    delay: '3.1s'
   },
 
 
@@ -112,7 +120,8 @@ export const skillsData = [
 
     `,
     url: 'https://www.npmjs.com/',
-    color: '#C13534'
+    color: '#C13534',
+    delay: '3.4s'
   },
 
   {
@@ -123,7 +132,8 @@ export const skillsData = [
     Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser.
     `,
     url: 'https://developer.chrome.com/docs/devtools/',
-    color: '#3A92FF'
+    color: '#3A92FF',
+    delay: '3.7s'
   },
 
 

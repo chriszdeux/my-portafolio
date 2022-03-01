@@ -1,14 +1,14 @@
 @mixin block($size) {
-  width: 1rem;
+  width: 2rem;
   height: $size;
-  background-color: $main-color;
+  background: $bars-color;
   border: none;
 }
 
 @mixin group-block($heigh) {
-  width: 1rem;
+  width: 2rem;
   height: $heigh;
-  background-color: $main-color;
+  background: $bars-color;
   border: none;
 }
 
@@ -17,6 +17,7 @@
   justify-content: space-between;
   width: 95%;
   margin: 0 auto;
+  // margin: 6rem 0;
   border-bottom: 3px solid $border-color;
   .section {
     display: flex;
@@ -27,7 +28,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 10rem;
+      width: 15rem;
       height: 3rem;
       background-color: $main-color;
       color: $second-font-color;
@@ -35,10 +36,13 @@
     }
 
     .block-1 {
-      @include block(2rem)
+      @include block(2rem);
+      @include animation(1s);
+      
     }
     .block-2 {
-      @include block(1rem)
+      @include block(1rem);
+      @include animation(1.5s);
     }
     
   }
@@ -47,22 +51,36 @@
     display: flex;
     align-items: flex-end;
     .block-3 {
-      @include group-block(1rem)
+      @include group-block(1rem);
+      @include animation(3s);
     }
     .block-4 {
-      @include group-block(4rem)
+      @include group-block(4rem);
+      @include animation(1s);
     }
     .block-5 {
-      @include group-block(2rem)
+      @include group-block(2rem);
+      @include animation(2s);
     }
     .block-6 {
-      @include group-block(1rem)
+      @include group-block(1rem);
+      @include animation(1.5s);
     }
     .block-7 {
-      @include group-block(3rem)
+      @include group-block(3rem);
+      @include animation(.5s);
     }
     .block-8 {
-      @include group-block(1rem)
+      @include group-block(1rem);
+      @include animation(2.5s);
+    }
+    .block-9 {
+      @include group-block(1rem);
+      @include animation(1.8s);
+    }
+    .block-10 {
+      @include group-block(1rem);
+      @include animation(3.2s);
     }
   }
 }

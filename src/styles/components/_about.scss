@@ -2,13 +2,14 @@
   width: 100%;
   padding: 1rem;
   p {
-    font-size: $small-font;
+    font-size: $regular-font;
     text-align: justify;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
   }
 
   h2 {
-    font-size: $regular-font;
+    font-size: $large-font;
     color: $border-color;
     margin: 1rem 0;
   }
@@ -24,16 +25,19 @@
       // display: flex;
       // align-items: center;
       // width: 100%;
+      color: $font-color-2;
+      font-weight: $heavy-weigth;
       .sub_skill {
         display: flex;
         flex-wrap: wrap;
-        color: $border-color;
         margin-left: 1rem;
         li {
           // flex-shrink: 0;
           // width: 100%;
           // display: flex;
           // align-items: center;
+          font-weight: $regular-weigth;
+          color: $border-color;
           margin-right: 1rem;
 
         }
