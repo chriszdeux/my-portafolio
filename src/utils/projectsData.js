@@ -38,6 +38,9 @@ export const projects = [
     description: 'Crypto Ant, a website from the world of cryptocurrencies where you can practice and see results with real world data. Come take a look and learn how to invest in this market',
     gallery: [
       {
+        image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/crypto%2Fcryptoant.png?alt=media&token=217d9a7b-f05d-41fd-b92f-d87ef17bdf2b'
+      },
+      {
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/crypto%2Fchriszdeux.github.io_crypto_%20(1).png?alt=media&token=45529978-7efa-42e2-85bc-14b5bcb4a4a2'
       },
       {
@@ -82,6 +85,10 @@ export const projects = [
     description: 'A website where you can check your favorite games. Check from most recent games, information, images and more. This website consumes the RAWG API to consult the latest in videogames.',
     gallery: [
       {
+        image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/whatgame%2Fwgame.png?alt=media&token=1ca33c4c-b845-44d7-8c4d-e6cb852ad04a',
+        link: 'https://chriszdeux.github.io/whatgame/',
+      },
+      {
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/whatgame%2Fchriszdeux.github.io_whatgame_%20(1).png?alt=media&token=b458b718-94f9-43ea-ad8d-cc81e50e31b5',
       },
       {
@@ -122,6 +129,10 @@ export const projects = [
     ],
     description: 'Check out Fantastic images of extraordinary photographers, visit their work and admire the world with the eyes of a photographer.',
     gallery: [
+      {
+        image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/awamage%2Fawemage.png?alt=media&token=2231daa9-8fdf-43c8-8919-5a5d39c735e4',
+        link: 'https://chriszdeux.github.io/gallery/'
+      },
       {
         image: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/awamage%2Fchriszdeux.github.io_gallery_%20(1).png?alt=media&token=03cdff3e-17cc-4685-b98d-add0f6dd69fe'
       },

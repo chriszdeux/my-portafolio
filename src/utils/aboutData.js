@@ -1,3 +1,5 @@
+import { icons } from "./icons";
+
 export const aboutMeData = {
   about_me: `I am a front-end developer focusing on React. My first contact in  web development was in 2011 when I was studying video game development engineering, which I only studied for a year and a half, for personal reasons I could not continue.
   In this school I had the opportunity to learn about technologies such as C++, Maya, Photoshop, Illustrator Unreal Engine 3, html, css, bootstrap and foundation.
@@ -87,6 +89,20 @@ export const aboutMeData = {
     {
       hobbie: 'Lecture.',
       // list_hobbie: []
+    },
+  ],
+  contact: [
+    {
+      name: 'Linkedin',
+      icon: icons.linkedin_icon,
+      link: 'https://www.linkedin.com/in/christian-meza-72158b208/',
+      color: '#0A66C2'
+    },
+    {
+      name: 'Instagram',
+      icon: icons.instagram_icon,
+      link: 'https://www.instagram.com/chriszdeux/',
+      color: '#D62977'
     },
   ]
 }

@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
 import { aboutMeData } from '../../utils/aboutData'
+import { animations } from '../../utils/animations'
 
 export const Interested = () => {
   const { hobbies } = aboutMeData
+  const { fade_in, fade_out } = animations
+
+  const sectionRef = useRef(null)
+  const isVisible = useIntersectionObserver(sectionRef)
   return (
-    <section className='interested'>
+    <section className={`interested ${ isVisible ? fade_in : fade_out }`} ref={ sectionRef }>
       <figure className='interested_background'>
         <img src="" alt="" />
       </figure>

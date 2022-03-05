@@ -15,6 +15,7 @@
       // align-items: center;
       width: 100%;
       .project_screenshot {
+        height: 25rem;
         // width: 59%;
         // height: 15rem;
 
@@ -40,6 +41,21 @@
           text-align: justify;
           font-size: $regular-font;
           letter-spacing: 1px;
+        }
+        h3 {
+          font-size: $large-font;
+          margin-bottom: 1rem;
+          color: $font-color-2;
+          text-align: end;
+          cursor: pointer;
+
+          &:hover {
+            color: $main-color;
+          }
+          &:active {
+            transform: scale(.98);
+            color: $main-color;
+          }
         }
       }
     }

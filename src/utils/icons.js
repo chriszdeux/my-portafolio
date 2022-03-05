@@ -4,7 +4,7 @@ import { DiGit, DiNpm } from 'react-icons/di'
 import { AiFillEye, AiFillInstagram, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
 import { RiExternalLinkFill, RiFolderInfoFill } from 'react-icons/ri' 
 import { VscDebugConsole, VscChromeClose } from 'react-icons/vsc';
-import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5'
+import { IoChevronBackOutline, IoChevronForwardOutline, IoChevronUpOutline } from 'react-icons/io5'
 import { CgMenuRight } from 'react-icons/cg'
 
 export const icons = {
@@ -29,4 +29,5 @@ export const icons = {
   mail_icon: <AiOutlineMail className='icon'/>,
   linkedin_icon: <AiOutlineLinkedin className='icon'/>,
   instagram_icon: <AiFillInstagram className='icon'/>,
+  top_icon: <IoChevronUpOutline className='icon'/>,
 }

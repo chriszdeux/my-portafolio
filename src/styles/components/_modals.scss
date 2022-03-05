@@ -1,0 +1,104 @@
+.gallery_modal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  
+
+  .layout {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $github-color;
+    filter: blur(2px) opacity(.5);
+    z-index: -1;
+  }
+
+  .close {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+    cursor: pointer;
+      transition: .2s linear;
+      &:active {
+        transform: scale(.97);
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+    .icon {
+      font-size: $regular-icon;
+      color: $main-color;
+    }
+  }
+
+  .current_img {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    img {
+      width: inherit;
+      height: inherit;
+      object-fit: contain;
+    }
+
+    .back-image {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+  }
+
+  .gallery_controls {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    div {
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: .2s linear;
+      &:active {
+        transform: scale(.97);
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+      .icon {
+        font-size: $regular-icon;
+        color: $main-color;
+      }
+    }
+  }
+  
+}

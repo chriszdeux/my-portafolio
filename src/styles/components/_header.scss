@@ -93,6 +93,8 @@
       li {
         cursor: pointer;
         transition: .2s ease;
+        width: 10rem;
+        text-align: center;
         a {
           font-size: $regular-font;
           color: $border-color;
@@ -100,6 +102,11 @@
         &:hover {
           font-weight: 500;
           transform: scale(1.05);
+          // border-bottom: 1px solid $main-color;
+          border-right: 1px solid $main-color;
+        }
+        &:active {
+          transform: scale(.97);
         }
       }
     }

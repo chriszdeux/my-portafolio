@@ -3,6 +3,8 @@
 @import './buttons.scss';
 @import './mixins.scss';
 @import './animations';
+
+@import './components/modals';
 @import './components/header';
 @import './components/main';
 @import './components/divider';
@@ -11,6 +13,7 @@
 @import './components/about';
 @import './components/interested';
 @import './components/contact';
+@import './components/footer';
 
 @import './media-queries/header';
 @import './media-queries/main';
@@ -46,6 +49,7 @@ ul, ol, li {
 
 a {
   text-decoration: none;
+  // color: none;
   // color: ;
 }
 

@@ -9,3 +9,76 @@
   background-color: $main-color;
   color: $second-font-color;
 }
+
+.top_button {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 4rem;
+  height: 4rem;
+  // border: 1px solid red;
+  transform: rotate(45deg);
+  background-color: $main-color;
+  transition: .2s linear;
+  cursor: pointer;
+  animation-name: float-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-fill-mode: alternate;
+  // outline: 1px solid $border-color ;
+  &:active {
+    transform: scale(.97) rotate(45deg);
+    outline: 1px solid $main-color;
+  }
+  .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    background-color: $border-color;
+    // border: 1px solid red;
+    .icon {
+      transform: rotate(-45deg);
+      font-size: $regular-icon;
+      color: $second-font-color;
+    }
+
+  }
+  
+  .layer-2 {
+    width: inherit;
+    height: inherit;
+    background-color: $main-color;
+    // opacity: .6;
+    position: absolute;
+    top: 10%;
+    right: -10%;
+    z-index: -1;
+    animation-name: opacity-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-delay: .5s;
+  }
+  .layer-3 {
+    width: inherit;
+    height: inherit;
+    background-color: $main-color;
+    // opacity: .4;
+    position: absolute;
+    top: 20%;
+    right: -20%;
+    z-index: -2;
+
+    animation-name: opacity-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-delay: 1s;
+  }
+
+}

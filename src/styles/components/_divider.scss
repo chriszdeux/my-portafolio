@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   width: 95%;
-  margin: 0 auto;
+  margin: 1rem auto;
   // margin: 6rem 0;
   border-bottom: 3px solid $border-color;
   .section {
@@ -81,6 +81,10 @@
     .block-10 {
       @include group-block(1rem);
       @include animation(3.2s);
+    }
+
+    &:nth-child(1) {
+      display: none;
     }
   }
 }
