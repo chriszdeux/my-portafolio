@@ -21,8 +21,9 @@
   .contact_form {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     input {
+      width: 100%;
       height: 3rem;
       margin-bottom: 1rem;
       text-align: center;
@@ -39,6 +40,7 @@
     }
     
     textarea {
+      width: 100%;
       height: 10rem;
       margin-bottom: 1rem;
       border: 1px solid $border-color;
@@ -54,8 +56,50 @@
     }
 
     .btn {
-      align-self: center;
+      float: right;
+
+      &:active {
+        transform: translateX(-50%) scale(.97);
+        background-color: $font-color-2;
+      }
     }
     // flex-wrap: wrap;
   }
+}
+
+.mail_screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: $background-color;
+  z-index: 2;
+
+  .mail_content {
+    width: 80%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    .loading {
+      animation-name: rotate;
+      animation-duration: 1s ;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    .icon {
+      font-size: $large-icon;
+    }
+
+    h2 {
+      font-size: $jumbo-font;
+    }
+  }
+
 }

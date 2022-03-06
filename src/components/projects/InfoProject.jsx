@@ -7,16 +7,8 @@ import { GalleryModal } from '../modal/GalleryModal'
 export const InfoProject = ({item}) => {
  
   const { name, cover_image, description, gallery } = item
-  const { myGalleryData:{
-    handleGallery
-  }, openModal: { handleIsOpen } } = useContext(DataContext)
+ 
 
-  const handleOpenGallery = () => {
-    handleGallery(gallery)
-    setTimeout(() => {
-      handleIsOpen()
-    }, 300);
-  }
   return (
     <>
     <div className='project_content'>
@@ -27,7 +19,7 @@ export const InfoProject = ({item}) => {
       <div className='project_info'>
         <h2>{ name }</h2>
         <p>{ description }</p>
-        <h3 onClick={ handleOpenGallery }>Gallery</h3>
+        {/* <h3 onClick={ handleOpenGallery }>Gallery</h3> */}
       </div>
     </div>
     </>

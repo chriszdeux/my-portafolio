@@ -1,11 +1,21 @@
 import { icons } from "./icons";
 
 export const aboutMeData = {
-  about_me: `I am a front-end developer focusing on React. My first contact in  web development was in 2011 when I was studying video game development engineering, which I only studied for a year and a half, for personal reasons I could not continue.
-  In this school I had the opportunity to learn about technologies such as C++, Maya, Photoshop, Illustrator Unreal Engine 3, html, css, bootstrap and foundation.
-  A little over a year and a half ago I resumed development and chose front end as my career..`,
+  about_me: `My name is Christian Meza a front-end developer.
 
-  skills: `Some technologies with which I have worked`,
+  I am a person who likes to solve things, I do not consider myself a lover of all technology, I am selective as to what type of technology attracts me. I think we should all learn a little bit of programming basics, you can apply it to real life.
+
+  Why did I choose this career? It is easy to answer, technology advances in giant steps. In 2011 I was studying Video Game Engineering and that was where I first learned a little about web technologies.
+  Back then I learned basics about html, css, bootstrap and foundation. For personal reasons I had to stop my studies and that was where I made my first mistake of moving away from programming.
+  
+  From 2011 to 2020 I tried to learn several things on my own, see what I could specialize in? I tried from graphic design, video editing, photography, music and even tried to make a gamer brand, but none of this felt like it was for me.
+  At the beginning of the pandemic I was forced to give up many things, but it also completely opened my eyes and that's when I decided to take back programming and learn about personal finance.
+  
+  When I saw how many technologies were available to develop web, I honestly felt overwhelmed, I felt that I couldn't anymore, but I had no other option, it was to learn or go back to work as a doordash delivery.
+  
+  Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
+  
+  I know that I can be an important member of a team, if I am assigned a task I will do it and I do not consider myself so proud that I do not ask for help in case I miss something.`,
   my_skills: [
     {
       skill: 'HTML',
@@ -35,10 +45,10 @@ export const aboutMeData = {
       skill: 'NPM',
       // list: []
     },
-    {
-      skill: 'Google',
-      list: ['Not only looking for the solution is important, analyzing and understanding is essential']
-    },
+    // {
+    //   skill: 'Google',
+    //   list: ['Not only looking for the solution is important, analyzing and understanding is essential']
+    // },
   ],
 
   softSkills: [

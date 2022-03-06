@@ -54,7 +54,7 @@ export const GalleryModal = ({ values }) => {
     <div className={`gallery_modal ${ modal_animation }`}>
       <div className='close' onClick={ handleIsOpen }>{ close_icon }</div>
       <figure className='current_img'>
-        <img className={`${ animation } back-image`} src={ galleryData[currenScreenshot].image } alt={ galleryData[currenScreenshot].image } />
+        {/* <img className={`${ animation } back-image`} src={ galleryData[currenScreenshot].image } alt={ galleryData[currenScreenshot].image } /> */}
         <img className={`${ animation }`} src={ galleryData[currenScreenshot].image } alt={ galleryData[currenScreenshot].image } />
       </figure>
       <div className='gallery_controls'>

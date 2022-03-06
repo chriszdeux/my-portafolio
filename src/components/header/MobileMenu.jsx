@@ -1,6 +1,7 @@
 import React from 'react'
 import { icons } from '../../utils/icons'
 import { scrollTop } from '../../utils/scrollTop'
+import resume from '../../temp/invitacio_vacuna.pdf'
 
 export const MobileMenu = ({ animation }) => {
   // const { handleShowComponent, animation } = values
@@ -20,6 +21,14 @@ export const MobileMenu = ({ animation }) => {
         <li><a href="#skills">Skills</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href={ resume } target="_blank" rel="noreferrer">
+            Resume
+          </a>
+        <a href={ resume } download>
+        { icons.download_icon }
+        </a>
+        </li>
       </ul>
       {/* <div className='block_menu_container'>
         <div className='menu-block-1'></div>

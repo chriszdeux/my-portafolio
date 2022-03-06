@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
 import { aboutMeData } from '../../utils/aboutData'
 import { animations } from '../../utils/animations'
@@ -7,11 +7,20 @@ export const About = () => {
   const { about_me, my_skills, hobbies } = aboutMeData
   
   const { fade_in, fade_out } = animations
-
+  const [aboutMe, setAboutMe] = useState([])
+  useEffect(() => {
+    setAboutMe( about_me.split('. ') )
+  }, [  ])
   const sectionRef = useRef(null)
   const isVisible = useIntersectionObserver(sectionRef)
+  // debugger
   return (
     <section className={` about ${ isVisible ? fade_in : fade_out } `} ref={ sectionRef }>
+      {/* {
+        aboutMe.map(item => (
+          <p>{ item }</p>
+        ))
+      } */}
       <p>{ about_me }</p>
       <div className='about_content'>
       <div>

@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { DataContext } from '../../context/context'
 import { About } from '../about/About'
 import { Contact } from '../contact/Contact'
+import { Sent } from '../contact/Sent'
 import { Divider } from '../divider/Divider'
 import { Footer } from '../footer/Footer'
 import { Header } from '../header/Header'
@@ -31,6 +32,7 @@ export const Pages = () => {
       <Divider values="Contact Me" id="contact"/>
       <Contact />
       <Footer />
+      {/* <Sent /> */}
       <TopButton />
       {
         isOpen && 

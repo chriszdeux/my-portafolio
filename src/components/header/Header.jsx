@@ -7,7 +7,7 @@ import { MobileMenu } from './MobileMenu'
 
 export const Header = () => {
   const { showComponent, handleShowComponent, animation } = useShowComponent();
-  const { fade_in, fade_out } = animations
+  const { fade_in, fade_right } = animations
 
   // useEffect(() => {
 
@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <header className='header'>
       <h2>Portfolio</h2>
-      <div className={`menu ${ fade_in }`} onClick={ handleShowComponent }>
+      <div className={`menu ${ !showComponent ? fade_in : fade_right }`} onClick={ handleShowComponent }>
         {
           !showComponent
             ?  icons.menu_icon

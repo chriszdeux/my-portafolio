@@ -11,6 +11,9 @@
   background-color: $background-color;
   border-bottom: 1px solid $border-color;
 
+  .menu {
+    cursor: pointer;
+  }
   h2 {
     font-size: $large-font;
     color: $main-color;
@@ -47,8 +50,14 @@
         text-align: center;
         transition: .2s ease;
         a {
+          display: flex;
+          align-items: center;
           color: $second-font-color;
 
+          .icon {
+            margin-left: 1rem;
+            color: $border-color;
+          }
         }
         // &:hover {
         //   background-color: $border-color;
@@ -95,18 +104,32 @@
         transition: .2s ease;
         width: 10rem;
         text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: $regular-font;
+        // justify-content: space-between;
         a {
+          display: flex;
+          align-items: center;
           font-size: $regular-font;
           color: $border-color;
         }
         &:hover {
           font-weight: 500;
-          transform: scale(1.05);
+          // transform: scale(1.05);
           // border-bottom: 1px solid $main-color;
-          border-right: 1px solid $main-color;
+          // border-right: 1px solid $main-color;
         }
         &:active {
           transform: scale(.97);
+        }
+
+        .icon {
+          margin-left: 1rem;
+          transition: .2s linear;
+          &:hover {
+            color: $font-color-2;
+          }
         }
       }
     }

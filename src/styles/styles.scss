@@ -36,11 +36,13 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
   color: $font-color;
+  scroll-behavior: smooth;
   // font-size: $small-font;
 }
 
 .icon {
   font-size: $small-icon;
+  user-select: none;
 }
 
 ul, ol, li {
@@ -53,7 +55,19 @@ a {
   // color: ;
 }
 
-html {
-  scroll-behavior: smooth;
-  // webkit-s
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: $second-font-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $font-color-2;
 }

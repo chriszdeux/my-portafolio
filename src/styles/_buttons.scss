@@ -5,9 +5,18 @@
 }
 
 .btn_primary {
-  border: 1px solid $border-color;
+  border: none;
   background-color: $main-color;
   color: $second-font-color;
+  cursor: pointer;
+  &:focus-visible {
+    outline: none;
+  }
+  &:active {
+    transform: scale(.97);
+    background-color: $font-color-2;
+  }
+
 }
 
 .top_button {
