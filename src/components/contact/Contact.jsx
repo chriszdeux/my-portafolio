@@ -66,14 +66,14 @@ export const Contact = () => {
            ? <Sent setSent={ setSent }/>
            :
             <form action="" className={`contact_form `} onSubmit={handleSend}>
-              <input className='name' type="text" name="name" onChange={ handleOnChange } values={ name } placeholder='name' autoComplete='off'  required/>
-              <input className='email' type="email" name="email" onChange={ handleOnChange } values={ email } placeholder='welcome@welcome.com' autoComplete='off'  required/>
-              <input className='subject' type="text" name="subject" onChange={ handleOnChange } values={ subject } placeholder='subject' autoComplete='off'  required/>
+              <input className='name' type="text" name="name" onChange={ handleOnChange } values={ name } placeholder='name (require)' autoComplete='off'  required/>
+              <input className='email' type="email" name="email" onChange={ handleOnChange } values={ email } placeholder='welcome@welcome.com (require)' autoComplete='off'  required/>
+              <input className='subject' type="text" name="subject" onChange={ handleOnChange } values={ subject } placeholder='subject ' autoComplete='off'  required/>
               <textarea className='message' name="message" value={ message } onChange={ handleOnChange } required></textarea>
               {
                 !validation
                 ? <p>Message at least 20 characters</p>
-                : <button className='btn btn_primary' type='submit' onClick={handleSend}>Send</button>
+                : <button className={`btn btn_primary ${ fade_in }`} type='submit' onClick={handleSend}>Send</button>
                 
               }
             </form>

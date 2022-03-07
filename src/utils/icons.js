@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiHtml5  , SiCss3  , SiJavascript  , SiSass  , SiReact , SiGithub, SiRedux   } from 'react-icons/si';
+import { SiHtml5  , SiCss3  , SiJavascript  , SiSass  , SiReact , SiGithub, SiRedux, SiExpress, SiMongodb, SiTypescript, SiJest   } from 'react-icons/si';
 import { DiGit, DiNpm } from 'react-icons/di'
 import { AiFillEye, AiFillInstagram, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineLoading3Quarters, AiOutlineMail } from 'react-icons/ai'
 import { RiExternalLinkFill, RiFolderInfoFill } from 'react-icons/ri' 
@@ -9,6 +9,7 @@ import { CgMenuRight } from 'react-icons/cg';
 import { ImImages } from 'react-icons/im'
 import { MdOutlineMailOutline, MdOutlineMarkEmailRead } from 'react-icons/md'
 import { BsFillCloudDownloadFill } from 'react-icons/bs'
+import { GrNode } from 'react-icons/gr'
 
 export const icons = {
   html_icon: <SiHtml5 className='icon'/>,
@@ -37,6 +38,11 @@ export const icons = {
   gallery_icon: <ImImages className='icon'/>,
   loading_icon: <AiOutlineLoading3Quarters className='icon'/>,
   download_icon: <BsFillCloudDownloadFill className='icon'/>,
+  node_icon: <GrNode className='icon'/>,
+  express_icon: <SiExpress className='icon'/>,
+  mongo_icon: <SiMongodb className='icon'/>,
+  typescript_icon: <SiTypescript className='icon'/>,
+  jest_icon: <SiJest className='icon'/>,
 
   // gallery_icon: <ImImages className='icon'/>,
 }

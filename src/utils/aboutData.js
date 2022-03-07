@@ -3,19 +3,26 @@ import { icons } from "./icons";
 export const aboutMeData = {
   about_me: `My name is Christian Meza a front-end developer.
 
-  I am a person who likes to solve things, I do not consider myself a lover of all technology, I am selective as to what type of technology attracts me. I think we should all learn a little bit of programming basics, you can apply it to real life.
+  I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
 
-  Why did I choose this career? It is easy to answer, technology advances in giant steps. In 2011 I was studying Video Game Engineering and that was where I first learned a little about web technologies.
+  Why did I choose this career? It's easy to answer, technology advances in giant steps. In 2011 I was studying Video Game Engineering and that was where I first learned a little about web technologies.
   Back then I learned basics about html, css, bootstrap and foundation. For personal reasons I had to stop my studies and that was where I made my first mistake of moving away from programming.
   
   From 2011 to 2020 I tried to learn several things on my own, see what I could specialize in? I tried from graphic design, video editing, photography, music and even tried to make a gamer brand, but none of this felt like it was for me.
-  At the beginning of the pandemic I was forced to give up many things, but it also completely opened my eyes and that's when I decided to take back programming and learn about personal finance.
+  At the beginning of the pandemic I was forced to give up many things, but it also completely opened my eyes and that's when I decided to take front-end  development as my career and learn about personal finance.
   
   When I saw how many technologies were available to develop web, I honestly felt overwhelmed, I felt that I couldn't anymore, but I had no other option, it was to learn or go back to work as a doordash delivery.
   
   Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
   
-  I know that I can be an important member of a team, if I am assigned a task I will do it and I do not consider myself so proud that I do not ask for help in case I miss something.`,
+  I know that I can be an important member of a team, if I am assigned a task I'll do it`,
+  short_version: `My name is Christian Meza a front-end developer.
+
+  I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
+  
+  Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
+  
+  I know that I can be an important member of a team, if I am assigned a task I'll do it`,
   my_skills: [
     {
       skill: 'HTML',
@@ -105,7 +112,7 @@ export const aboutMeData = {
     {
       name: 'Linkedin',
       icon: icons.linkedin_icon,
-      link: 'https://www.linkedin.com/in/christian-meza-72158b208/',
+      link: 'https://www.linkedin.com/in/christian-meza-front-end/',
       color: '#0A66C2'
     },
     {
@@ -114,6 +121,28 @@ export const aboutMeData = {
       link: 'https://www.instagram.com/chriszdeux/',
       color: '#D62977'
     },
+  ],
+  learning: [
+  {
+    technology: 'Node',
+    icon: icons.node_icon
+  },
+  {
+    technology: 'Express',
+    icon: icons.express_icon
+  },
+  {
+    technology: 'MongoDB',
+    icon: icons.mongo_icon
+  },
+  {
+    technology: 'TypeScript',
+    icon: icons.typescript_icon
+  },
+  {
+    technology: 'Jest',
+    icon: icons.jest_icon
+  },
   ]
 }
 
