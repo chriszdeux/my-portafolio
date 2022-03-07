@@ -1,7 +1,7 @@
 import React from 'react'
 import { icons } from '../../utils/icons'
 import { scrollTop } from '../../utils/scrollTop'
-import resume from '../../temp/invitacio_vacuna.pdf'
+import resume from '../../resume/christian_meza_resume.pdf'
 
 export const MobileMenu = ({ animation }) => {
   // const { handleShowComponent, animation } = values
@@ -9,7 +9,7 @@ export const MobileMenu = ({ animation }) => {
   
   // debugger
   return (
-    <navbar className={`navbar_mobile ${ animation }`}>
+    <nav className={`navbar_mobile ${ animation }`}>
       {/* <div className='close' onClick={ handleShowComponent }>
         {
           close_icon
@@ -22,12 +22,16 @@ export const MobileMenu = ({ animation }) => {
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
-          <a href={ resume } target="_blank" rel="noreferrer">
+          <a href="#">
+
             Resume
           </a>
-        <a href={ resume } download>
-        { icons.download_icon }
-        </a>
+          <a href={ resume } target="_blank" rel="noreferrer">
+          { icons.link_icon }
+          </a>
+          <a href={ resume } download>
+          { icons.download_icon }
+          </a>
         </li>
       </ul>
       {/* <div className='block_menu_container'>
@@ -36,6 +40,6 @@ export const MobileMenu = ({ animation }) => {
         <div className='menu-block-3'></div>
         <div className='menu-block'></div>
       </div> */}
-    </navbar>
+    </nav>
   )
 }

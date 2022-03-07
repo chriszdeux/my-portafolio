@@ -1,6 +1,7 @@
 .about {
   width: 100%;
   padding: 1rem;
+  overflow: hidden;
   // display: flex;
   .about_content {
     display: grid;
@@ -19,6 +20,20 @@
     font-size: $large-font;
     color: $border-color;
     margin: 1rem 0;
+    
+  }
+
+  h3 {
+    cursor: pointer;
+    user-select: none;
+    // width: 10rem;
+    font-size: $regular-font;
+    text-align: end;
+    transition: .2s linear;
+    &:hover {
+      color: $font-color-2;
+    }
+    // border: 1px solid $border-color;
   }
 
   .my_skills {
@@ -52,4 +67,38 @@
       }
     }
   } 
+
+  .learning {
+    width: 100%;
+    height: auto;
+    h2 {
+      text-align: center;
+    }
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    .learning_list {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .icon {
+          font-size: $regular-icon;
+          margin-bottom: 1rem;
+        }
+
+        span {
+          font-size: $regular-font;
+
+        }
+      }
+    }
+  }
 }

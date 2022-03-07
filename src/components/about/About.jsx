@@ -1,27 +1,37 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
+import { useShowComponent } from '../../hooks/useShowComponent'
 import { aboutMeData } from '../../utils/aboutData'
 import { animations } from '../../utils/animations'
 
 export const About = () => {
-  const { about_me, my_skills, hobbies } = aboutMeData
+  const { about_me, my_skills, hobbies, learning, short_version } = aboutMeData
   
-  const { fade_in, fade_out } = animations
+  const { fade_in, fade_out, fade_left, fade_right } = animations
   const [aboutMe, setAboutMe] = useState([])
   useEffect(() => {
     setAboutMe( about_me.split('. ') )
   }, [  ])
   const sectionRef = useRef(null)
   const isVisible = useIntersectionObserver(sectionRef)
+  const { showComponent, handleShowComponent } = useShowComponent()
   // debugger
   return (
     <section className={` about ${ isVisible ? fade_in : fade_out } `} ref={ sectionRef }>
-      {/* {
-        aboutMe.map(item => (
-          <p>{ item }</p>
-        ))
-      } */}
-      <p>{ about_me }</p>
+     <h3 onClick={ handleShowComponent } className={ fade_in }>
+      {
+        showComponent
+        ? 'Short version'
+        : 'Complete Version'
+      }
+    </h3>
+
+      {
+        showComponent
+          ? <p className={ fade_left }>{ about_me }</p>
+          : <p className={ fade_right }>{ short_version }</p>
+      }
+
       <div className='about_content'>
       <div>
         <h2>I've worked with this technologies</h2>
@@ -63,7 +73,22 @@ export const About = () => {
             ))
           }
         </ul>
+
       </div>
+      </div>
+      <div className='learning'>
+        <h2>Technologies I'm learning</h2>
+        <ul className='learning_list'>
+          {
+            learning.map(item => (
+              <li key={ item.technology }>
+                { item.icon }
+                <span>{ item.technology }</span>
+              </li>
+            ))
+          }
+        </ul>
+
       </div>
       
     </section>

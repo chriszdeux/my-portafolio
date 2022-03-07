@@ -8,12 +8,18 @@
   border: none;
   background-color: $main-color;
   color: $second-font-color;
+  transition: .2s ease;
   cursor: pointer;
   &:focus-visible {
     outline: none;
   }
   &:active {
     transform: scale(.97);
+    background-color: $font-color-2;
+  }
+  
+  &:hover {
+    
     background-color: $font-color-2;
   }
 

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.faad2613.css",
+    "main.js": "/static/js/main.b806cec7.js",
+    "static/media/christian_meza_resume.pdf": "/static/media/christian_meza_resume.42e066e06589504e9fd9.pdf",
+    "index.html": "/index.html",
+    "main.faad2613.css.map": "/static/css/main.faad2613.css.map",
+    "main.b806cec7.js.map": "/static/js/main.b806cec7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faad2613.css",
+    "static/js/main.b806cec7.js"
+  ]
+}

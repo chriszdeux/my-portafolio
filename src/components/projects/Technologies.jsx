@@ -32,9 +32,9 @@ export const Technologies = ({ item }) => {
       </ul>
       <div className='project_links'>
         
-          <div onClick={ handleOpenGallery }>
+          {/* <div onClick={ handleOpenGallery }>
             { icons.gallery_icon }
-          </div>
+          </div> */}
           <a href={ link } target="_blank" rel="noreferrer">
           { icons.live_icon }
           </a>
