@@ -1,7 +1,8 @@
 import React from 'react'
 import { icons } from '../../utils/icons'
 import { scrollTop } from '../../utils/scrollTop'
-import resume from '../../resume/christian_meza_resume.pdf'
+
+const resume = 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/christian_meza_resume.pdf?alt=media&token=b7dec780-2951-4f52-ad9c-47d27d8d864b' 
 
 export const MobileMenu = ({ animation }) => {
   // const { handleShowComponent, animation } = values

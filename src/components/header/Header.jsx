@@ -14,7 +14,7 @@ export const Header = () => {
   // }, [ showComponent ])
   return (
     <header className='header'>
-      <h2>Portfolio</h2>
+      <h2>Christian Meza Portfolio</h2>
       <div className={`menu ${ !showComponent ? fade_in : fade_right }`} onClick={ handleShowComponent }>
         {
           !showComponent
