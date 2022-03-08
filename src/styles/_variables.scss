@@ -1,7 +1,7 @@
 $background-color: #fff;
-$main-color: #A4BDFF;
-$font-color: #7395EE;
-$font-color-2: #637ec4;
+$main-color: #7294f1;
+$font-color: #5c87f3;
+$font-color-2: #4e72cc;
 // $font-color: #595959;
 $second-font-color: #f5f5f5;
 $border-color: #7395EE;
@@ -25,6 +25,12 @@ $redux-color: #764ABC;
 $debbug-color: #3a92ff;
 $linkedin-color: #0A66C2;
 $instagram-color: #D62977;
+
+$node-color: #72B254;
+$express-color: #3b3b3b;
+$mongo-color: #3C9237;
+$ts-color: #2F74C0;
+$jest-color: #BF3B14;
 // $instagram-color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 
 $small-font: 1.1rem;
@@ -37,7 +43,7 @@ $light-weigth: 300;
 $regular-weigth: 400;
 $heavy-weigth: 500;
 
-$box-shadow: 0 0 3px 3px $main-color;
+$box-shadow: 0 0 3px 3px #7294f140;
 
 $small-icon: 2rem;
 $regular-icon: 3rem;

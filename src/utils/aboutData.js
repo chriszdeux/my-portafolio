@@ -1,8 +1,7 @@
 import { icons } from "./icons";
 
 export const aboutMeData = {
-  about_me: `My name is Christian Meza a front-end developer.
-
+  about_me: `
   I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
 
   Why did I choose this career? It's easy to answer, technology advances in giant steps. In 2011 I was studying Video Game Engineering and that was where I first learned a little about web technologies.
@@ -16,9 +15,7 @@ export const aboutMeData = {
   Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
   
   I know that I can be an important member of a team, if I am assigned a task I'll do it`,
-  short_version: `My name is Christian Meza a front-end developer.
-
-  I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
+  short_version: `I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
   
   Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
   
@@ -125,24 +122,30 @@ export const aboutMeData = {
   learning: [
   {
     technology: 'Node',
-    icon: icons.node_icon
+    icon: icons.node_icon,
+    color: '#72B254'
   },
   {
     technology: 'Express',
-    icon: icons.express_icon
+    icon: icons.express_icon,
+    color: '#3b3b3b'
   },
   {
     technology: 'MongoDB',
-    icon: icons.mongo_icon
+    icon: icons.mongo_icon,
+    color: '#3C9237'
   },
   {
     technology: 'TypeScript',
-    icon: icons.typescript_icon
+    icon: icons.typescript_icon,
+    color: '#2F74C0'
   },
   {
     technology: 'Jest',
-    icon: icons.jest_icon
+    icon: icons.jest_icon,
+    color: '#BF3B14'
   },
-  ]
+  ],
+  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume.pdf?alt=media&token=1a42b15e-fe5b-4ae8-990b-331c0db0d343'
 }
 

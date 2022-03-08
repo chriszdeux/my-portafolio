@@ -1,11 +1,22 @@
 .about {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   padding: 1rem;
   overflow: hidden;
+  background-color: $second-font-color;
+  border: 1px solid $main-color;
+  border-radius: .5rem;
   // display: flex;
+  box-shadow: $box-shadow;
   .about_content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: $second-font-color;
+    padding: 1rem;
+    border: 1px solid $main-color;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    box-shadow: $box-shadow;
   }
   p {
     font-size: $regular-font;
@@ -13,6 +24,10 @@
     line-height: 2.5rem;
     letter-spacing: 1px;
     white-space: pre-line;
+    background-color: $second-font-color;
+    padding: 1rem;
+    border: 1px solid $main-color;
+    border-radius: .5rem;
     color: $font-color-2;
   }
 
@@ -71,6 +86,11 @@
   .learning {
     width: 100%;
     height: auto;
+    background-color: $second-font-color;
+    padding: 1rem;
+    border: 1px solid $main-color;
+    border-radius: .5rem;
+    margin-top: 1rem;
     h2 {
       text-align: center;
     }
@@ -96,7 +116,7 @@
 
         span {
           font-size: $regular-font;
-
+          color: $font-color;
         }
       }
     }

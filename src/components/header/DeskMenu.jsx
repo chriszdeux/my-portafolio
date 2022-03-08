@@ -1,8 +1,9 @@
 import React from 'react'
 import { scrollTop } from '../../utils/scrollTop'
 import { icons } from '../../utils/icons'
-const resume = 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/christian_meza_resume.pdf?alt=media&token=b7dec780-2951-4f52-ad9c-47d27d8d864b' 
+import { aboutMeData } from '../../utils/aboutData'
 export const DeskMenu = () => {
+  const { resume } = aboutMeData
   
   return (
     <nav className="navbar_desk">

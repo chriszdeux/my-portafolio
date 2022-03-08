@@ -7,7 +7,7 @@ import { animations } from '../../utils/animations'
 export const About = () => {
   const { about_me, my_skills, hobbies, learning, short_version } = aboutMeData
   
-  const { fade_in, fade_out, fade_left, fade_right } = animations
+  const { fade_in, fade_out, fade_left, fade_right, fade_down, fade_up } = animations
   const [aboutMe, setAboutMe] = useState([])
   useEffect(() => {
     setAboutMe( about_me.split('. ') )
@@ -18,6 +18,7 @@ export const About = () => {
   // debugger
   return (
     <section className={` about ${ isVisible ? fade_in : fade_out } `} ref={ sectionRef }>
+      <h2>I'm a React front-end developer</h2>
      <h3 onClick={ handleShowComponent } className={ fade_in }>
       {
         showComponent
@@ -28,8 +29,8 @@ export const About = () => {
 
       {
         showComponent
-          ? <p className={ fade_left }>{ about_me }</p>
-          : <p className={ fade_right }>{ short_version }</p>
+          ? <p className={ fade_up }>{ about_me }</p>
+          : <p className={ fade_down }>{ short_version }</p>
       }
 
       <div className='about_content'>
@@ -81,7 +82,9 @@ export const About = () => {
         <ul className='learning_list'>
           {
             learning.map(item => (
-              <li key={ item.technology }>
+              <li key={ item.technology } style={{
+                color: `${ item.color }`
+              }}>
                 { item.icon }
                 <span>{ item.technology }</span>
               </li>

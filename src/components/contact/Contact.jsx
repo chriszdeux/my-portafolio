@@ -23,7 +23,7 @@ export const Contact = () => {
   const [validation, setValidation] = useState(false)
 
   const handleValidation = () => {
-    if(name.length > 4 && email.includes('@') && message.length > 15) {
+    if(name.length > 2 && email.includes('@') && message.length > 15) {
       setValidation(true)
     }
   }
