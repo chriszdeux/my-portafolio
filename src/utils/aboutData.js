@@ -58,8 +58,8 @@ export const aboutMeData = {
       // list: []
     },
     {
-      skill: 'Git/Github',
-      list: ['Deploy projects']
+      skill: 'Control Versions',
+      list: ['Git', 'GitHub']
     },
     {
       skill: 'APIs',
