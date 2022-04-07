@@ -2,19 +2,11 @@ import { icons } from "./icons";
 
 export const aboutMeData = {
   about_me: `
-  I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
-
-  Why did I choose this career? It's easy to answer, technology advances in giant steps. In 2011 I was studying Video Game Engineering and that was where I first learned a little about web technologies.
-  Back then I learned basics about html, css, bootstrap and foundation. For personal reasons I had to stop my studies and that was where I made my first mistake of moving away from programming.
-  
-  From 2011 to 2020 I tried to learn several things on my own, see what I could specialize in? I tried from graphic design, video editing, photography, music and even tried to make a gamer brand, but none of this felt like it was for me.
-  At the beginning of the pandemic I was forced to give up many things, but it also completely opened my eyes and that's when I decided to take front-end  development as my career and learn about personal finance.
-  
-  When I saw how many technologies were available to develop web, I honestly felt overwhelmed, I felt that I couldn't anymore, but I had no other option, it was to learn or go back to work as a doordash delivery.
-  
-  Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
-  
-  I know that I can be an important member of a team, if I am assigned a task I'll do it`,
+    Hi I'm Christian a React frontend. The reason why I chose this branch of programming is because I like to work on the visual side of projects but at the same time I like the code. In the near future I would not only like to be a frontend developer, I would like to be an engineer in this field.
+    I have been involved in the world of programming for approximately 9 years when I was studying Video Game Engineering, which I stopped for personal reasons. Two and a half years ago I resumed programming and trained with courses, documentation and in some cases answering questions in Facebook groups.
+    During this time I learned to handle HTML5 and CSS3 quite well, working in the way that is recommended using the appropriate tags for each case and always thinking that the application is responsive at all times. I also learned how to use the React library along with its hooks and state handlers, API calls.
+    I consider myself a person who likes to always be mentally active.. My next step in this field is to become a Fullstack MERN.
+  `,
   short_version: `I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
   
   Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
@@ -146,6 +138,6 @@ export const aboutMeData = {
     color: '#BF3B14'
   },
   ],
-  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResumeV2.pdf?alt=media&token=c9c96019-5f1d-434d-9a48-c2da98057f69'
+  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume_C.pdf?alt=media&token=751593cf-f811-4086-9730-ec4e370c0742'
 }
 

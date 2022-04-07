@@ -19,20 +19,7 @@ export const About = () => {
   return (
     <section className={` about ${ isVisible ? fade_in : fade_out } `} ref={ sectionRef }>
       <h2>I'm a React front-end developer</h2>
-     <h3 onClick={ handleShowComponent } className={ fade_in }>
-      {
-        showComponent
-        ? 'Short version'
-        : 'Complete Version'
-      }
-    </h3>
-
-      {
-        showComponent
-          ? <p className={ fade_up }>{ about_me }</p>
-          : <p className={ fade_down }>{ short_version }</p>
-      }
-
+      <p className={ fade_up }>{ about_me }</p>
       <div className='about_content'>
       <div>
         <h2>I've worked with this technologies</h2>
