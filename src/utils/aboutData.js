@@ -54,6 +54,10 @@ export const aboutMeData = {
       list: ['Git', 'GitHub']
     },
     {
+      skill: 'Deploy Projects',
+      list: ['GitHub Pages', 'Heroku']
+    },
+    {
       skill: 'APIs',
       // list: []
     },

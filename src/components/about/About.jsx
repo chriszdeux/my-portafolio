@@ -65,7 +65,7 @@ export const About = () => {
 
       </div>
       </div>
-      <div className='learning'>
+      {/* <div className='learning'>
         <h2>Technologies I'm learning</h2>
         <ul className='learning_list'>
           {
@@ -81,7 +81,7 @@ export const About = () => {
           }
         </ul>
 
-      </div>
+      </div> */}
       
     </section>
   )
