@@ -100,9 +100,12 @@
     align-items: center;
     .learning_list {
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1rem;
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
 
       li {
         display: flex;

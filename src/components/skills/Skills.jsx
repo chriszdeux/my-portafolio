@@ -16,6 +16,7 @@ export const Skills = () => {
         <ul className='skill_list'>
           {
             skillsData.map(item => (
+              item.learned && 
               <li key={ item.name } className={ `${ isVisible ? fade_in : fade_out }` } >
                 <span style={{ color: `${ item.color }` }}>{ item.icon }</span>
                 { item.name }
