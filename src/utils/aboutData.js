@@ -146,6 +146,6 @@ export const aboutMeData = {
     color: '#BF3B14'
   },
   ],
-  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume.pdf?alt=media&token=1a42b15e-fe5b-4ae8-990b-331c0db0d343'
+  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResumeV2.pdf?alt=media&token=c9c96019-5f1d-434d-9a48-c2da98057f69'
 }
 
