@@ -3,6 +3,7 @@ import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
 import { useShowComponent } from '../../hooks/useShowComponent'
 import { aboutMeData } from '../../utils/aboutData'
 import { animations } from '../../utils/animations'
+import { skillsData } from '../../utils/skillsData'
 
 export const About = () => {
   const { about_me, my_skills, hobbies, learning, short_version } = aboutMeData
@@ -64,11 +65,12 @@ export const About = () => {
 
       </div>
       </div>
-      <div className='learning'>
+      {/* <div className='learning'>
         <h2>Technologies I'm learning</h2>
         <ul className='learning_list'>
           {
-            learning.map(item => (
+            skillsData.map(item => (
+              !item.learned && 
               <li key={ item.technology } style={{
                 color: `${ item.color }`
               }}>
@@ -79,7 +81,7 @@ export const About = () => {
           }
         </ul>
 
-      </div>
+      </div> */}
       
     </section>
   )

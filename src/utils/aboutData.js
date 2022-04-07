@@ -19,7 +19,7 @@ export const aboutMeData = {
     },
     {
       skill: 'CSS',
-      list: ['Flex-Box', 'Grid', 'Animations', 'Media Queries']
+      list: ['Flex-Box', 'Grid', 'Animations', 'Media Queries', 'Responsive Design', 'Mobile First']
     },
     {
       skill: 'Javascript',
@@ -34,11 +34,31 @@ export const aboutMeData = {
       // list: []
     },
     {
+      skill: 'Node Js',
+      // list: []
+    },
+    {
+      skill: 'Express',
+      list: ['Routing', 'MiddleWares']
+    },
+    {
       skill: 'Dev-Tools',
       list: ['Chrome-Dev-Tools', 'Firefox-Dev-Tools']
     },
     {
       skill: 'NPM',
+      // list: []
+    },
+    {
+      skill: 'Control Versions',
+      list: ['Git', 'GitHub']
+    },
+    {
+      skill: 'Deploy Projects',
+      list: ['GitHub Pages', 'Heroku']
+    },
+    {
+      skill: 'APIs',
       // list: []
     },
     // {

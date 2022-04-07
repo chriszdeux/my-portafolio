@@ -6,7 +6,7 @@ import { GalleryModal } from '../modal/GalleryModal'
 
 export const InfoProject = ({item}) => {
  
-  const { name, cover_image, description, gallery } = item
+  const { name, cover_image, description, gallery, work_in_progress } = item
  
 
   return (
@@ -19,6 +19,10 @@ export const InfoProject = ({item}) => {
       <div className='project_info'>
         <h2>{ name }</h2>
         <p>{ description }</p>
+        {
+          work_in_progress &&
+          <h3>( Work in progress )</h3>
+        }
         {/* <h3 onClick={ handleOpenGallery }>Gallery</h3> */}
       </div>
     </div>

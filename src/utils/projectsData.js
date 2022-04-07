@@ -57,6 +57,7 @@ export const projects = [
       },
     ],
     repository: 'https://github.com/chriszdeux/crypto',
+    work_in_progress: true,
     delay: '1s'
   },
 
@@ -102,6 +103,7 @@ export const projects = [
       },
     ],
     repository: 'https://github.com/chriszdeux/whatgame',
+    work_in_progress: false,
     delay: '1.3s'
   },
 
@@ -150,6 +152,7 @@ export const projects = [
       },
     ],
     repository: 'https://github.com/chriszdeux/gallery',
+    work_in_progress: false,
     delay: '1.6s'
   },
 ]

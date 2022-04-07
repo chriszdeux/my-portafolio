@@ -11,6 +11,11 @@ const {
   redux_icon,
   npm_icon, 
   debbug_icon,
+  node_icon,
+  express_icon,
+  mongo_icon,
+  typescript_icon,
+  jest_icon,
   git_icon } = icons
 export const skillsData = [
   {
@@ -22,7 +27,8 @@ export const skillsData = [
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
     color: '#d84b24',
-    delay: '1s'
+    delay: '1s',
+    learned: true,
   },
 
   {
@@ -34,7 +40,8 @@ export const skillsData = [
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     color: '#2B6CAD',
-    delay: '1.3s'
+    delay: '1.3s',
+    learned: true,
   },
 
   {
@@ -46,7 +53,8 @@ export const skillsData = [
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     color: '#ffe047',
-    delay: '1.6s'
+    delay: '1.6s',
+    learned: true,
   },
 
   {
@@ -58,7 +66,8 @@ export const skillsData = [
     `,
     url: 'https://sass-lang.com/documentation',
     color: '#C26191',
-    delay: '1.9s'
+    delay: '1.9s',
+    learned: true,
   },
 
   {
@@ -70,7 +79,8 @@ export const skillsData = [
     `,
     url: 'https://reactjs.org/docs/getting-started.html',
     color: '#58DAFB',
-    delay: '2.2s'
+    delay: '2.2s',
+    learned: true,
   },
 
   {
@@ -82,7 +92,8 @@ export const skillsData = [
     `,
     url: 'https://react-redux.js.org/',
     color: '#764ABC',
-    delay: '2.5s'
+    delay: '2.5s',
+    learned: true,
   },
 
 
@@ -95,7 +106,8 @@ export const skillsData = [
     `,
     url: 'https://git-scm.com/',
     color: '#d84b24',
-    delay: '2.8s'
+    delay: '2.8s',
+    learned: true,
   },
 
   {
@@ -107,7 +119,8 @@ export const skillsData = [
     `,
     url: 'https://github.com/',
     color: '#272727',
-    delay: '3.1s'
+    delay: '3.1s',
+    learned: true,
   },
 
 
@@ -121,7 +134,8 @@ export const skillsData = [
     `,
     url: 'https://www.npmjs.com/',
     color: '#C13534',
-    delay: '3.4s'
+    delay: '3.4s',
+    learned: true,
   },
 
   {
@@ -133,7 +147,58 @@ export const skillsData = [
     `,
     url: 'https://developer.chrome.com/docs/devtools/',
     color: '#3A92FF',
-    delay: '3.7s'
+    delay: '3.7s',
+    learned: true,
+  },
+  {
+    id: 11,
+    icon: node_icon,
+    name: 'NodeJS',
+    description: ``,
+    url: '',
+    color: '#72B254',
+    delay: '3.7s',
+    learned: true,
+  },
+  {
+    id: 12,
+    icon: express_icon,
+    name: 'Express',
+    description: ``,
+    url: '',
+    color: '#3b3b3b',
+    delay: '3.7s',
+    learned: true,
+  },
+  {
+    id: 13,
+    icon: mongo_icon,
+    name: 'MongoDB',
+    description: ``,
+    url: '',
+    color: '#3C9237',
+    delay: '3.7s',
+    learned: false,
+  },
+  {
+    id: 14,
+    icon: typescript_icon,
+    name: 'TypeScript',
+    description: ``,
+    url: '',
+    color: '#2F74C0',
+    delay: '3.7s',
+    learned: false,
+  },
+  {
+    id: 15,
+    icon: jest_icon,
+    name: 'Jest',
+    description: ``,
+    url: '',
+    color: '#BF3B14',
+    delay: '3.7s',
+    learned: false,
   },
 
 
